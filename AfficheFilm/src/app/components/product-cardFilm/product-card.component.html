@@ -1,0 +1,18 @@
+<h2> Liste des films</h2>
+<div class="film">
+<ul *ngFor="let film of infoFilm">
+<div class="card" style="width: 18rem;">
+    <img [src]=film.img class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{film.nom}} <br> {{film.real}} <br> {{film.annee}} </h5>
+      <p class="card-text">{{film.synopsis | slice:0:90 }}...</p>
+       <a href="#" class="btn btn-primary">{{film.details}}</a> 
+    </div>
+  </div>
+</ul>
+</div>
+
+
+
+
+

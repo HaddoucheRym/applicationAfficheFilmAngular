@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+    color: #21242994;
+}
+
+.album{
+    display: flex;
+justify-content: center;
+}
+
+.btn-primary{
+    --bs-btn-bg: #0d6dfdc7;  
+}
+
+.card{
+    box-shadow: -3px -3px 7px #ffffffb2, 
+    3px 3px 5px rgba(94, 104, 121, 0.945);
+   
+}

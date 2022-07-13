@@ -1,0 +1,13 @@
+<h2> Liste des albums</h2>
+<div class="album">
+<ul *ngFor="let album of infoAlbum">
+    <div class="card" style="width: 18rem;">
+        <img [src]=album.img class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{album.nom}} <br> {{album.annee}} </h5>
+          <p class="card-text">{{album.artiste}}</p>
+           <a href="#" class="btn btn-primary">{{album.details}}</a> 
+        </div>
+      </div>
+    </ul>
+</div>
